@@ -193,12 +193,16 @@ nav h1 {
     #c4f0c5,
     #c4f0c5
   );
-  position: relative;
   display: inline-block;
 }
 .section-three-img {
-  height: 800px;
-  justify-self: flex-end;
+display: flex;
+justify-content: center;
+position: relative;
+}
+.section-three-img img{
+ position: absolute;
+ top: 100px;
 }
 .sec-three-btn {
   font-weight: 600;
@@ -211,8 +215,8 @@ nav h1 {
   padding: 15px 15px;
   line-height: 30px;
   position: absolute;
-  bottom: 20%;
-  right: 65%;
+  top: 2870px;
+  left: 1150px;
 }
 .sec-three-txt-container {
   padding: 0 10px;
