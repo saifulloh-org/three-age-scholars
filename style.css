@@ -159,7 +159,8 @@ nav h1 {
   margin-bottom: 100px;
 }
 .section-three {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
 }
@@ -183,7 +184,7 @@ nav h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1000px;
+  height: 100%;
   background: linear-gradient(
     to right,
     #ffafbd,
@@ -215,7 +216,6 @@ nav h1 {
 }
 .sec-three-txt-container {
   padding: 0 10px;
-  width: 50%;
 }
 .section-three-box {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -358,7 +358,6 @@ nav h1 {
 }
 .quran,
 .hadith {
-  border: 0.5px solid red;
   width: 700px;
   height: 800px;
   display: flex;
