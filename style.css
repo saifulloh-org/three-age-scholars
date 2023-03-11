@@ -181,6 +181,7 @@ nav h1 {
   color: #727272;
 }
 .sec-three-img {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,13 +197,12 @@ nav h1 {
   display: inline-block;
 }
 .section-three-img {
-display: flex;
-justify-content: center;
-position: relative;
+  display: flex;
+  justify-content: center;
 }
-.section-three-img img{
- position: absolute;
- top: 100px;
+.section-three-img img {
+  position: absolute;
+  top: 100px;
 }
 .sec-three-btn {
   font-weight: 600;
@@ -215,8 +215,8 @@ position: relative;
   padding: 15px 15px;
   line-height: 30px;
   position: absolute;
-  top: 2870px;
-  left: 1150px;
+  top: 800px;
+  left: 50px;
 }
 .sec-three-txt-container {
   padding: 0 10px;
@@ -313,7 +313,6 @@ position: relative;
   padding: 20px;
   width: 200px;
   height: 200px;
-  /* transition: transform 0.2s ease-in-out; */
   position: relative;
 }
 .sec-four-border:before {
