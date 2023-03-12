@@ -477,22 +477,21 @@ nav h1 {
 /* Media Query For iPhone SE and Max Width of 375 */
 
 /* Section One (Header) */
-@media only screen and (max-width:375px) {
+@media only screen and (max-width: 375px) {
   nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-items: center;
-
   }
-  nav h1{
+  nav h1 {
     text-align: center;
     margin: 5px 0;
   }
-  .nav-ul{
+  .nav-ul {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
   }
   nav ul {
     display: flex;
@@ -503,22 +502,21 @@ nav h1 {
     align-items: center;
     padding: 0 50px;
   }
-  .txt h1{
+  .txt h1 {
     font-size: 30px;
     width: 350px;
     line-height: 40px;
   }
-  .txt p{
+  .txt p {
     width: 350px;
   }
-  .txt button{
+  .txt button {
     margin: 5px;
     width: 110px;
     height: 40px;
     padding: 0 5px;
   }
-  .txt button a{
+  .txt button a {
     font-size: 15px;
   }
-  
 }
