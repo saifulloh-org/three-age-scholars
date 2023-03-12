@@ -4,8 +4,8 @@ body {
   font-family: "Tilt Warp", cursive;
 }
 .container {
-  padding: 0 200px;
-  margin: 100px auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 /* Header Section */
 header {
@@ -84,12 +84,12 @@ nav h1 {
 .img img {
   width: 80%;
 }
-
 /* Section Two */
 .section-two {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 50px;
 }
 .image-grid {
   display: grid;
@@ -115,8 +115,7 @@ nav h1 {
   position: absolute;
 }
 .right-side-txt {
-  margin-left: 50px;
-  width: 100%;
+  padding: 0 50px 0 50px;
 }
 .right-side-txt h1 {
   font-weight: 700;
@@ -133,7 +132,6 @@ nav h1 {
 .right-side-p {
   font-weight: 400;
   font-size: 16px;
-  width: 537px;
   color: #727272;
 }
 .sec-two-btn {
@@ -151,333 +149,21 @@ nav h1 {
   color: #ffffff;
 }
 
-/* Section Three */
-.section-three-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-}
-.section-three {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  align-items: center;
-}
-.sec-three-txt-box-one {
-  margin-bottom: 30px;
-}
-.section-three-heading {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 53px;
-  border-left: 5px solid #ff900e;
-  padding-left: 20px;
-}
-.sec-three-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #727272;
-}
-.sec-three-img {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    #ffafbd,
-    #ffc3a0,
-    #ffe09d,
-    #c4f0c5,
-    #c4f0c5
-  );
-  display: inline-block;
-}
-.section-three-img {
-  display: flex;
-  justify-content: center;
-}
-.section-three-img img {
-  position: absolute;
-  top: 100px;
-}
-.sec-three-btn {
-  font-weight: 600;
-  font-size: 25px;
-  text-align: center;
-  background: #ff900e;
-  border-radius: 8px;
-  border: none;
-  margin: 30px 0;
-  padding: 15px 15px;
-  line-height: 30px;
-  position: absolute;
-  top: 800px;
-  left: 50px;
-}
-.sec-three-txt-container {
-  padding: 0 10px;
-}
-.section-three-box {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #727272;
-  height: 150px;
-  overflow: scroll;
-}
-.section-three-box-scroll {
-  position: relative;
-}
-.section-three-box-scroll::after {
-  content: "\2193";
-  display: block;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  font-size: 24px;
-  color: orange;
-  z-index: 999;
-}
-.section-three-box-heading {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  color: #131313;
-}
-.sec-three-btn a {
-  color: #ffffff;
-}
-.sec-three-btn-sm {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-/* Section Four */
-.sec-four-txt {
-  width: 600px;
-}
-.sec-four-txt h1 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 53px;
-  margin-bottom: 5px;
-}
-.sec-four-txt p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 50px;
-  color: #727272;
-}
-.sec-four-img {
-  display: flex;
-  justify-content: space-between;
-}
-.sec-four-img img {
-  border-radius: 100px;
-  width: 100px;
-}
-.sec-four-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sec-four-icon h2 {
-  margin-bottom: -20px;
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 53px;
-  color: #424242;
-}
-.sec-four-icon p {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  color: #727272;
-}
-.sec-four-border {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid orange;
-  border-radius: 7px;
-  padding: 20px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-.sec-four-border:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, #f00, #0f0, #00f, #ff0, #f00);
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-.sec-four-border:hover:before {
-  opacity: 0.8;
-}
-.sec-four-border:after {
-  content: "Listen";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 24px;
-  color: #fff;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-.sec-four-border:hover:after {
-  opacity: 1;
-  transform: translateY(-20px);
-}
-.sec-four-border img {
-  margin-bottom: -30px;
-}
-
-/* Section Five (Bonus Part) */
-.fifth-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.quran,
-.hadith {
-  width: 700px;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(
-    to bottom right,
-    #aaf2f2,
-    #d1e4f7,
-    #96ece4,
-    #b2ebdd,
-    #d7e6b5
-  );
-  padding: 30px 50px;
-}
-.quran h1,
-.hadith h1 {
-  font-size: 40px;
-  color: #333;
-  text-align: center;
-  text-shadow: 1px 1px 2px #ccc;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-.quran img {
-  width: 90%;
-  border: 5px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.quran p {
-  font-size: 18px;
-  color: #000000;
-  text-shadow: 1px 1px 7px #666;
-  letter-spacing: 2px;
-  text-align: justify;
-}
-#hadith-img {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-#hadith-img img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #fff;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-
-#hadith-img img:hover {
-  border: 2px solid #f00;
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-/* Section Six (Footer) */
-.footer-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-txt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.footer-txt h1 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 53px;
-  color: #131313;
-}
-.footer-txt p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #727272;
-  width: 950px;
-  margin: -10px 0 50px 0;
-}
-.footer-paragraph {
-  background-color: #fff4e7;
-  width: 1440px;
-  height: 100px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 120px 0;
-}
-.footer-img {
-  display: flex;
-  gap: 200px;
-}
-.footer-img img {
-  filter: grayscale(100%);
-  width: 100px;
-}
-
 /* Media Query For iPhone SE and Max Width of 375 */
 
-/* Section One (Header) */
 @media only screen and (max-width: 375px) {
+  .container {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 375px;
+  }
+
+  /* Section One (Header) */
+  header {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 375px;
+  }
   nav {
     display: flex;
     flex-direction: column;
@@ -495,7 +181,6 @@ nav h1 {
   }
   nav ul {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     gap: 20px;
     list-style: none;
@@ -504,11 +189,11 @@ nav h1 {
   }
   .txt h1 {
     font-size: 30px;
-    width: 350px;
+    width: 375px;
     line-height: 40px;
   }
   .txt p {
-    width: 350px;
+    width: 375px;
   }
   .txt button {
     margin: 5px;
@@ -518,5 +203,35 @@ nav h1 {
   }
   .txt button a {
     font-size: 15px;
+  }
+
+  /* Section Two */
+  .section-two {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+  }
+  .right-side-txt {
+    margin: 0;
+    padding: 0 15px;
+  }
+  .right-side-txt h1,
+  .sec-two-gray-text {
+    text-align: center;
+    font-size: 30px;
+  }
+  .sec-two-btn {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+  }
+  .sec-two-btn a {
+    font-size: 15px;
+  }
+  .image img {
+    width: 100px;
+    height: 100px;
   }
 }
