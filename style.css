@@ -463,7 +463,7 @@ nav h1 {
   margin: 120px 0;
 }
 .horizontal,
-.vertical{
+.vertical {
   display: none;
 }
 .footer-img {
@@ -670,7 +670,7 @@ nav h1 {
   .grid-item.image5 {
     grid-area: 2 / 2 / 3 / 3;
   }
-  .footer-paragraph{
+  .footer-paragraph {
     width: 375px;
     text-align: center;
   }
