@@ -468,7 +468,7 @@ nav h1 {
 }
 .footer-img {
   display: flex;
-  gap: 200px;
+  gap: 150px;
 }
 .footer-img img {
   filter: grayscale(100%);
@@ -477,7 +477,7 @@ nav h1 {
 
 /* Media Query For iPhone SE and Max Width of 375 */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1200px) {
   .container {
     padding: 0 25px;
     margin: 0 auto;
@@ -625,9 +625,7 @@ nav h1 {
 
   /* Section Six (Footer) */
   .footer-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
     width: 375px;
   }
   .footer-txt h1,
