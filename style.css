@@ -532,7 +532,6 @@ nav h1 {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    border: 3px solid red;
   }
   .right-side-txt {
     margin: 0;
@@ -585,3 +584,37 @@ nav h1 {
   .sec-three-btn-sm {
     font-size: 15px;
   }
+
+  /* Section Four */
+  .sec-four-container {
+    margin-top: 450px;
+  }
+.sec-four-txt{
+  width: 375px;
+}
+.sec-four-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Secton Five (Bonus Section) */
+.fifth-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.quran,
+.hadith{
+  width: 375px;
+}
+.quran{
+  z-index: 2;
+}
+.hadith{
+  margin-top: -150px;
+  z-index: 1;
+}
+}
